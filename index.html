@@ -1,0 +1,287 @@
+<!-- Copyright 2013-2019 Start Bootstrap
+Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>My Projects</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body style="padding-top: 0px; margin-top: 0px;">
+
+  <!-- Header -->
+  <header class="bg-dark py-5 mb-5" style="height: 290px; background-color: black;">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <img src="Images/name.png" width="30%" alt="Name">
+          <br>
+          <p class="text-white bg-dark">I am data professional with 3 years work experience in a
+            tech startup. I have hands-on experience with ETL, data analysis and machine learning. What makes me stand
+            out? I can combine programming knowledge with business acumen and have a proven track of record of
+            generating value from data.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 mb-4">
+        <h2>My projects</h2>
+      </div>
+    </div>
+
+
+    <!-- Tile filter -->
+
+    <div class="filter">
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox0" value="option0" checked
+          onclick="uncheckAll()">
+        <label class="form-check-label" for="inlineCheckbox0">All</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="classification">
+        <label class="form-check-label" for="inlineCheckbox1">Classification</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="regression">
+        <label class="form-check-label" for="inlineCheckbox2">Regression</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="reinforcement-learning">
+        <label class="form-check-label" for="inlineCheckbox4">Reinforcement learning</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="mobile-dev">
+        <label class="form-check-label" for="inlineCheckbox5">Mobile development</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="web-dev">
+        <label class="form-check-label" for="inlineCheckbox6">Web development</label>
+      </div>
+      <hr>
+    </div>
+
+    <!-- Tiles -->
+    <div class="row">
+
+      <div class="col-md-4 mb-5" name="reinforcement-learning">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/BirdsLearnToFly.png" alt="BirdsLearnToFly">
+          <div class="card-body">
+            <h4 class="card-title">AI Birds Learn to Fly </h4>
+            <p class="card-text">Generations of birds evolve to finally master flying around obstacles. Achieved with a
+              self-implemented
+              neural network and random mutation on its weights.</p>
+          </div>
+          <div class="card-footer">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://github.com/exoflow/EvolvingNeuralNetwork/tree/master/Assets/Scripts"
+              class="btn btn-primary">See Code</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=3Tjy9F2I5mU"
+              class="btn btn-primary">See on YouTube</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5" name="classification">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/PredictingPneumonia.png" alt="PredictingPneumonia">
+          <div class="card-body">
+            <h4 class="card-title">Pneumonia Prediction</h4>
+            <p class="card-text">Image recognition challenge to predict pneumonia from chest x-ray images. Solved with
+              TensorFlow and a Convolutional Neural Network.</p>
+          </div>
+          <div class="card-footer">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://github.com/exoflow/PredictingPneumonia/blob/master/pneumonia_tensorflow_cnn.ipynb"
+              class="btn btn-primary">See Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5" name="mobile-dev">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/Mastermind.png" alt="Mastermind">
+          <div class="card-body">
+            <h4 class="card-title">Android App "Mastermind" </h4>
+            <p class="card-text">Google Play app of the classic board game Mastermind. Extended by a 5-slot game mode
+              for advanced
+              players. Developed in C# using Unity 3D.</p>
+          </div>
+          <div class="card-footer">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://play.google.com/store/apps/details?id=com.mindwave.mastermind" class="btn btn-primary">See
+              on Google Play</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5" name="regression">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/PredictingHousePrices.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">House Prices Prediction</h4>
+            <p class="card-text">Popular regression challenge to predict house prices given 79 features. Solved with
+              scikit-learn using Ridge regression with parameter tuning.</p>
+          </div>
+          <div class="card-footer">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://github.com/exoflow/PredictingHousePrices/blob/master/predicting_house_prices_scikit_ridge_tuning.ipynb"
+              class="btn btn-primary">See Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5" name="classification">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/FraudTransactions.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Visualizing Fraud Transactions</h4>
+            <p class="card-text">394 dimensions reduced down to a single 2D plot. Achieved using Gradient Boosting and
+              high dimensionality visualization with t-SNE. </p>
+          </div>
+          <div class="card-footer">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://github.com/exoflow/VisualizingFraudTransactions/blob/master/fraud_transactions_tsne_scikit.pdf"
+              class="btn btn-primary">See Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5" name="mobile-dev">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/DeviceModelSegmentation.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Mobile Device Segmentation</h4>
+            <p class="card-text">Simple but effective segementation approch to improve advertising profitability.
+              Includes example scripts to upload segments to Applovin and Facebook Ads via API. </p>
+          </div>
+          <div class="card-footer">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://github.com/exoflow/DeviceModelSegmentation/blob/master/README.md"
+              class="btn btn-primary">See Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5" name="regression">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/PredictingUsedCarsValue.png" alt="PredictingPneumonia">
+          <div class="card-body">
+            <h4 class="card-title">Used Car Prices Prediction</h4>
+            <p class="card-text">Regression challenge to predict used cars based on web crawled data from ebay. Solved
+              with scikit-learn and a Random Forest Regressor. </p>
+          </div>
+          <div class="card-footer">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://github.com/exoflow/PredictingUsedCarPrices/blob/master/predicting_car_prices_scikit_randomforest.ipynb"
+              class="btn btn-primary">See Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5" name="web-dev">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/TrendPlatform.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Trend Platform</h4>
+            <p class="card-text">Django based web platform to monitor trends, topics and startups. (currently in
+              development).</p>
+          </div>
+          <div class="card-footer">
+            <a target="_blank" rel="noopener noreferrer" href="" class="btn btn-primary"
+              style="background-color: grey; border-color: grey; ">Not published</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Checkbox filter function -->
+    <script>
+      var checkboxes = document.querySelectorAll('[type="checkbox"]');
+
+      function uncheckAll() {
+        Array.from(checkboxes).forEach(function (checkBox) {
+          checkBox.checked = false;
+        })
+      };
+
+      var fnDisplayDivs = () => {
+        Array.from(checkboxes).forEach(function (checkBox) {
+
+          if (checkBox.checked) {
+            document.getElementById("inlineCheckbox0").checked = false;
+          };
+
+          var div = document.getElementsByName(checkBox.getAttribute("value"));
+
+          div.forEach(changeVisibility);
+
+          function changeVisibility(div) {
+            if (checkBox.checked) {
+              div.style.display = "block";
+
+            } else {
+              div.style.display = "none";
+            }
+          }
+        })
+      };
+
+      var checkNone = () => {
+
+        var noneActive = true;
+
+        Array.from(checkboxes).forEach(function (checkBox) {
+          if (checkBox.checked) {
+            noneActive = false;
+          }
+        })
+
+        if (noneActive) {
+          console.log('nonActive=true')
+          document.getElementById("inlineCheckbox0").checked = true;
+
+          var div = document.getElementsByClassName("col-md-4 mb-5");
+          console.log(div)
+          Array.from(div).forEach(function (div) {
+            div.style.display = "block";
+          })
+        };
+      };
+
+      Array.from(checkboxes).forEach(function (checkBox) {
+        checkBox.addEventListener("change", function () {
+
+          fnDisplayDivs();
+          checkNone();
+        })
+      });
+    </script>
+</body>
+
+</html>
