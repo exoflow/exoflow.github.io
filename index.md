@@ -31,7 +31,7 @@ Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-
           <br>
           <p class="text-white bg-dark">Hello, I am Volkmar, a data professional with 4 years of work experience, currently being team lead at a tech startup in Berlin. 
             I have hands-on experience with ETL, data analysis and machine learning. What makes me stand out? 
-            I can combine programming knowledge with business acumen and have a proven track of record of generating value from data.</p>
+            I can combine programming knowledge with business acumen and have a proven track record of generating value from data.</p>
         </div>
       </div>
     </div>
