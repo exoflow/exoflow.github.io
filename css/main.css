@@ -8,7 +8,6 @@
     max-height: 200px; 
     margin-top: 10px;
     object-fit: cover;
-
 }
 
 .card h-100 {
@@ -73,6 +72,12 @@ h6 {
   margin-top: 5px;
 }
 
+.coursera-img-main {
+  height: 85px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
 .coursera {
   margin-top: 20px;
 }
@@ -87,4 +92,13 @@ h6 {
  margin-left: 7px;
 }
 
+a:link {
+  color: black;
+}
+
+.certificate-logo{
+  display: flex; 
+  align-items: center;
+  color: black;
+}
 
